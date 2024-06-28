@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Welcome to Ipsy docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## What is Ipsy docs?
 
-## Commands
+Ipsy docs is a work in progress collection of resources, tutorials and guidelines to ease reproducible and open science at the Institute of Psychology at OvGU. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Objectives of Ipsy Docs
 
-## Project layout
+- *Provide a guide throughout the life cycle of your data to achieve a FAIR data management.*
+  
+- *Provide support and documentation for a proper and effective usage of the cluster.*
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! note "Before starting"
+    These pages require little prior knowledge from the user, but even if you are an experienced researcher, we recommend you to go through them, and especially to read carefully the sections dedicated to the cluster, data and backups.
+
+## How to contribute
+
+Contributions in various forms are welcome, you can contribute reporting issues, errors, suggesting or producing new sections, tutorials, examples etc. 
+
+You can contribute via **Github**
+

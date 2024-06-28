@@ -1,2 +1,60 @@
-site_name: My Docs
-theme: material
+site_name: Ipsy Docs
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.tooltips
+    - content.tabs.link
+    - navigation.top
+
+plugins:
+  - tags
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Open Science:
+    - Research Data Management:
+      - Getting started: open-science/research-data-management/getting-started.md
+      - Plan you data management: open-science/research-data-management/planning.md
+      - BIDS: open-science/research-data-management/bids.md
+      - Publish your data: open-science/research-data-management/publish.md
+      - Archive your data: open-science/research-data-management/archive.md
+    - Code Management:
+      - Good Coding practices: open-science/code-management/good-practices.md
+      - Sharing code: open-science/code-management/sharing.md
+    - Data Analysis Management:
+      - Data analysis: open-science/analysis-management/data-analysis.md
+  - Cluster: 
+    - Getting started: cluster/index.md
+    - Cecile: 
+      - Accessing Cecile: cluster/cecile/access.md
+      - Data organization: cluster/cecile/data.md
+      - Slurm: cluster/cecile/slurm.md
+      - Software stack: cluster/cecile/software.md
+    - Medusa:
+      - Accessing Medusa: cluster/medusa/access.md
+      - Data organization: cluster/medusa/data.md
+      - Condor: cluster/medusa/condor.md
+      - Software stack: cluster/medusa/software.md
