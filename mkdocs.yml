@@ -1,5 +1,5 @@
 site_name: Ipsy Docs
-site_url: https://mydomain.org/mysite
+site_url: https://manuelakuhn.github.io/mkdocs-test/
 theme:
   name: material
   features:
@@ -46,9 +46,9 @@ nav:
       - Sharing code: open-science/code-management/sharing.md
     - Data Analysis Management:
       - Data analysis: open-science/analysis-management/data-analysis.md
-  - Cluster: 
+  - Cluster:
     - Getting started: cluster/index.md
-    - Cecile: 
+    - Cecile:
       - Accessing Cecile: cluster/cecile/access.md
       - Data organization: cluster/cecile/data.md
       - Slurm: cluster/cecile/slurm.md
